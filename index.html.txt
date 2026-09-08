@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poppa Packz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #000000; /* Helt svart bakgrund */
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .logo-container {
+            max-width: 350px; /* Gjorde containern aningen större för säkerhets skull */
+            width: 100%;
+            margin-bottom: 30px; /* Lite mer avstånd till texten */
+        }
+        .logo-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 1.8rem;  /* MYCKET Större text */
+            font-weight: 800;   /* Extra fet stil */
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #8a99ad;
+            font-size: 1.1rem;  /* Något större underrubrik */
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo-container">
+        <!-- Byt ut "logotyp.png" mot filnamnet på din logga -->
+        <img src="logotyp.png" alt="Poppa Packz Logotyp">
+    </div>
+    <h1>DIN NYA RIP N SHIP UNDER UPPBYGGNAD</h1>
+    <p>KOMMER SNART!</p>
+
+</body>
+</html>
